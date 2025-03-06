@@ -21,14 +21,23 @@ html, body {
     cursor: pointer;
     top: 50%;
     transform: translateY(-50%);
+
 }
 
 .slider-button-next {
     right: 10px;
+    border-radius: 50%;
+    width: 2%;
+    height: 4%;
+    font-size: 170%;
 }
 
 .slider-button-prev {
     left: 10px;
+    border-radius: 50%;
+    width: 2%;
+    height: 4%;
+    font-size: 170%;
 }
 
 .slider-button-pause {
@@ -67,4 +76,24 @@ html, body {
 
 .indicator.active {
     background-color: #939393;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .slider-button-next {
+        right: 10px;
+        border-radius: 50%;
+        width: 4%;
+        height: 4%;
+        font-size: 120%;
+    }
+
+    .slider-button-prev {
+        left: 10px;
+        border-radius: 50%;
+        width: 4%;
+        height: 4%;
+        font-size: 120%;
+    }
+
 }
